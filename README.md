@@ -2,3 +2,13 @@
 1. פתח ב2 פרויקטים נפרדים את תיקיית סרבר בפרויקט אחד ותיקיית קליינט בפרויקט אחר.
 2. 2 יישומים עצמאיים להרצה הינם: בצד הקליינט -  gameplay.html ובצד הסרבר - server.js
   אותם יש להריץ לחוד כל אחד בפרויקט שלו
+
+הוראות הרצת בסיס נתונים:
+1. יש לוודא כי הגדרות פרטיי החשבון כפי שהם ואין לשנות אותם.
+2. לוודא שיש טבלה בשם games:
+3. <img width="206" height="131" alt="image" src="https://github.com/user-attachments/assets/10888a1d-b8a3-46d7-8482-8653bf59d9a7" />
+
+להלן רשומות הטבלה:
+
+ 
+<img width="1075" height="271" alt="image" src="https://github.com/user-attachments/assets/f8339e7d-68d8-4165-ba91-fb74aad15e68" />
