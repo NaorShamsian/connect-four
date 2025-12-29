@@ -24,40 +24,42 @@ and client-server communication.
 
 ## ▶️ How to Run
 
-### 1. Project Setup
 The project is divided into two separate parts:
 - `Server` – Node.js backend
 - `Client` – browser-based client
 
 Open each folder as a separate project.
----
-### 2. Install Dependencies 
-From the project root (or server folder, depending on your setup):
+
+Install dependencies:
 
 ```bash
 npm install
 
-**### 3. Run the Server**
 
-```bash
-node server.js
+---
 
-**### 3. Run the Client**
+```md
+## ▶️ Run the Client
 
+Open the following file in your browser:
+
+```text
 Client/gameplay.html
 
 
-**Database Setup:**
+
+## 🗄️ Database Setup
 
 Make sure you have a MySQL database available.
 
-A table named games is required to store game data.
+A table named `games` is required to store game data.
 
-Example table structure and sample records are shown below.
+Example table structure:
 
-<img width="206" height="131" alt="games table schema" src="https://github.com/user-attachments/assets/10888a1d-b8a3-46d7-8482-8653bf59d9a7" /> <img width="1075" height="271" alt="games table records" src="https://github.com/user-attachments/assets/f8339e7d-68d8-4165-ba91-fb74aad15e68" />
+```sql
+CREATE TABLE games (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    game_state TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
-Table should looks like:
-
- 
-<img width="1075" height="271" alt="image" src="https://github.com/user-attachments/assets/f8339e7d-68d8-4165-ba91-fb74aad15e68" />
