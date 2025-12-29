@@ -35,24 +35,20 @@ Install dependencies:
 ```bash
 npm install
 
+Run the server:
+node server.js
 
----
-
-```md
-## ▶️ Run the Client
-
-Open the following file in your browser:
-
-```text
+Run the client by opening the following file in your browser:
 Client/gameplay.html
 
-
-
-## 🗄️ Database Setup
-
+🗄️ Database Setup
 Make sure you have a MySQL database available.
 
-A table named `games` is required to store game data.
+A table named games is required to store game data.
+```
+Example table records:
+
+<img width="1075" height="271" alt="games table records" src="https://github.com/user-attachments/assets/f8339e7d-68d8-4165-ba91-fb74aad15e68" />
 
 Example table structure:
 
@@ -62,4 +58,4 @@ CREATE TABLE games (
     game_state TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
